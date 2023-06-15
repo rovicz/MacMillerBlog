@@ -19,6 +19,11 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -80,4 +85,48 @@ body {
     background-color: #fff;
     color: black;
   }
+}
+
+/* Albums */
+
+.album-item {
+  background-color: #0029f7;
+  border-radius: 15px;
+  padding: 60px;
+  margin: 60px auto;
+}
+
+.album-img img {
+  border-radius: 15px;
+}
+
+.album-info {
+  padding: 0px 20px;
+  color: white;
+}
+
+.album-info h2 {
+  font-size: 2em;
+  margin-bottom: 5px;
+  line-height: 1em;
+}
+
+.album-info h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.album-info p {
+  font-size: 1.125em;
+  margin-top: 20px;
+  max-width: 360px;
+  line-height: 1.4em;
+}
+
+.album-info a > img {
+  margin-top: 20px;
 }
