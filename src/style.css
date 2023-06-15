@@ -87,6 +87,63 @@ img {
   }
 }
 
+/* Home */
+
+.home h2 {
+  text-align: center;
+  padding: 60px 0 20px 0;
+  font-size: 2.5em;
+}
+
+.home h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: #000;
+  border-radius: 10px;
+  margin: 5px auto 0 auto;
+}
+
+.home-info {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.home-info h3 {
+  width: 220px;
+  background-color: #0029f7;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  margin-left: 15px;
+  top: -35px;
+}
+
+.home-button {
+  width: 180px;
+  padding: 15px 30px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #0029f7;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 1.225em;
+}
+
+.home-info::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #000;
+  border-radius: 10px;
+  margin: -5px auto 5px auto;
+}
+
 /* Albums */
 
 .album-item {
