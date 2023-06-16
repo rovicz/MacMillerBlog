@@ -71,6 +71,10 @@ img {
 }
 
 @media (max-width: 739px) {
+  .header {
+    padding: 0px 0px 20px 0;
+  }
+
   .header-logo {
     margin: 0 auto 20px auto;
   }
