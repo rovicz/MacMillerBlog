@@ -240,6 +240,25 @@ img {
   margin-top: 20px;
 }
 
+@media (max-width: 739px) {
+  .album-info h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .album-info h2::after {
+    margin: 0 auto;
+  }
+
+  .album-info p {
+    text-align: center;
+  }
+
+  .album-info a > img {
+    margin: 20px auto 0px auto;
+  }
+}
+
 /* Social */
 
 .social-item {
