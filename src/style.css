@@ -33,7 +33,7 @@ img {
 @media (max-width: 739px) {
   .container {
     flex-direction: column;
-    max-width: 300px;
+    max-width: 340px;
   }
 }
 
