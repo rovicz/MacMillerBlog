@@ -319,4 +319,9 @@ img {
   .footer-img {
     margin: 0 auto;
   }
+
+  .footer p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
