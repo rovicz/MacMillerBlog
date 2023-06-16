@@ -93,6 +93,10 @@ img {
 
 /* Home */
 
+.home {
+  animation: textDown 1s;
+}
+
 .home h2 {
   text-align: center;
   padding: 60px 0 20px 0;
@@ -158,6 +162,7 @@ img {
 
 .about {
   margin: 160px 0;
+  animation: textDown 1s;
 }
 
 .about-title {
@@ -235,6 +240,10 @@ img {
 }
 
 /* Albums */
+
+.album {
+  animation: textDown 1s;
+}
 
 .album-title {
   text-align: center;
@@ -316,6 +325,7 @@ img {
 
 .social {
   margin: 160px auto;
+  animation: textDown 1s;
 }
 
 .social-title {
@@ -389,5 +399,18 @@ img {
   .footer p {
     text-align: center;
     margin-bottom: 20px;
+  }
+}
+
+/* Animation */
+
+@keyframes textDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
