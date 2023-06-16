@@ -265,3 +265,33 @@ img {
 .social-img img {
   margin: 10px auto;
 }
+
+/* Footer */
+
+.footer {
+  background: #0029f7;
+  padding: 40px 0;
+}
+
+.footer p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin: 0 10px;
+  flex: 1;
+  color: white;
+}
+
+.footer-img {
+  margin: 0 10px;
+}
+
+@media (max-width: 739px) {
+  .footer-img,
+  .footer p {
+    margin: 10px 0px;
+  }
+
+  .footer-img {
+    margin: 0 auto;
+  }
+}
