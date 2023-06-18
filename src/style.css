@@ -312,7 +312,8 @@ img {
     margin: 0 auto;
   }
 
-  .album-info p {
+  .album-info p,
+  .album-info h3 {
     text-align: center;
   }
 
