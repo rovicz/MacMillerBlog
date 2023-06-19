@@ -1,5 +1,9 @@
 /* Reset */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
