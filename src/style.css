@@ -161,6 +161,10 @@ img {
     display: none;
   }
 
+  .home h2 {
+    padding: 40px 0 15px 0;
+  }
+
   .home-button {
     margin-top: -10px;
     display: block;
