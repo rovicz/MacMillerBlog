@@ -250,6 +250,10 @@ img {
   .about-img-02 {
     display: none;
   }
+
+  .about {
+    margin: 120px 0;
+  }
 }
 
 /* Albums */
@@ -379,6 +383,12 @@ img {
 
 .social-img img {
   margin: 10px auto;
+}
+
+@media (max-width: 739px) {
+  .social {
+    margin: 120px 0;
+  }
 }
 
 /* Footer */
