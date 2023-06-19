@@ -156,6 +156,15 @@ img {
   .home {
     margin-top: -25px;
   }
+
+  .home-info::after {
+    display: none;
+  }
+
+  .home-button {
+    margin-top: -10px;
+    display: block;
+  }
 }
 
 /* About */
