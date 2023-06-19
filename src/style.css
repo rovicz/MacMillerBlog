@@ -157,17 +157,17 @@ img {
     margin-top: -25px;
   }
 
-  .home-info::after {
-    display: none;
-  }
-
   .home h2 {
     padding: 40px 0 15px 0;
+    font-size: 2.25em;
   }
 
-  .home-button {
-    margin-top: -10px;
-    display: block;
+  .home h2::after {
+    width: 120px;
+  }
+
+  .home-info img {
+    max-height: 360px;
   }
 }
 
