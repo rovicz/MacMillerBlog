@@ -239,7 +239,6 @@ img {
 
 .about {
   margin: 280px 0;
-  animation: textDown 1s;
 }
 
 .about-title {
@@ -316,7 +315,7 @@ img {
   }
 
   .about {
-    margin: 120px 0;
+    margin: 160px 0;
   }
 }
 
@@ -453,7 +452,7 @@ img {
 
 @media (max-width: 739px) {
   .social {
-    margin: 120px 0;
+    margin: 160px 0;
   }
 }
 
