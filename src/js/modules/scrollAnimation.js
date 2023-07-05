@@ -1,5 +1,5 @@
 export default function initAnimacaoScroll() {
-  const sections = document.querySelectorAll('[data-anime="scroll"]');
+  const sections = document.querySelectorAll(".js-scroll");
   if (sections.length) {
     const windowMetade = window.innerHeight * 0.6;
 
@@ -13,8 +13,6 @@ export default function initAnimacaoScroll() {
     }
 
     animaScroll();
-
-    console.log("teste");
 
     window.addEventListener("scroll", animaScroll);
   }
