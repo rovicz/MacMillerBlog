@@ -325,6 +325,13 @@ img {
   animation: textDown 1s;
 }
 
+.album-info p::selection,
+.album-info h2::selection,
+.album-info h3::selection {
+  color: #0029f7;
+  background: #fff;
+}
+
 .album-title {
   text-align: center;
   font-size: 2.5em;
@@ -409,6 +416,11 @@ img {
   animation: textDown 1s;
 }
 
+.social-item h2::selection {
+  color: #0029f7;
+  background: #fff;
+}
+
 .social-title {
   text-align: center;
   font-size: 2.5em;
@@ -461,6 +473,11 @@ img {
 .footer {
   background: #0029f7;
   padding: 40px 0;
+}
+
+.footer p::selection {
+  color: #0029f7;
+  background: #fff;
 }
 
 .footer p {
