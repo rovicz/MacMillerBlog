@@ -91,6 +91,25 @@ img {
   background: #0029f0;
 }
 
+/* DropDown Menu */
+
+.dropbtn {
+  display: none;
+  background: #fff;
+  width: 120px;
+  height: 40px;
+}
+
+@media (max-width: 739px) {
+  .dropbtn {
+    display: inline-block;
+  }
+
+  .header-nav {
+    display: none;
+  }
+}
+
 /* Header */
 
 .header {
@@ -138,7 +157,7 @@ img {
   }
 
   .header-logo {
-    margin: 0 auto 20px auto;
+    max-width: 120px;
   }
 
   .header-nav a {
