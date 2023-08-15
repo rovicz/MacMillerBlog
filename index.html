@@ -1,273 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
-    <link rel="shortcut icon" href="./src/mac-icon.svg" type="image/x-icon" />
-    <title>Mac Miller - Blog</title>
-  </head>
 
-  <body>
-    <!-- Button Top -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="shortcut icon" href="./src/mac-icon.svg" type="image/x-icon" />
+  <title>Mac Miller - Blog</title>
+</head>
 
-    <a id="topButton"
-      ><img src="./src/img/double-arrow-top-icon.svg" alt="Button Top"
-    /></a>
+<body>
+  <!-- Button Top -->
 
-    <!-- Header -->
+  <a id="topButton"><img src="./src/img/double-arrow-top-icon.svg" alt="Button Top" /></a>
 
-    <header class="header">
-      <div class="container">
-        <a class="header-logo" href="#"
-          ><img src="./src/img/macmiller-logo.svg" alt="Mac Miller Blog"
-        /></a>
-        <nav class="header-nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#album">Albums</a></li>
-            <li><a href="#social">Social</a></li>
-          </ul>
-        </nav>
-        <div class="dropdown">
-          <button onclick="dropDown()" class="dropbtn">
-            <img
-              class="dropdown-img"
-              src="src/img/menu-svgrepo-com.svg"
-              alt="Dropdown Menu"
-            />
-          </button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#album">Albums</a>
-            <a href="#social">Social</a>
-          </div>
+  <!-- Header -->
+
+  <header class="header">
+    <div class="container">
+      <a class="header-logo" href="#"><img src="./src/img/macmiller-logo.svg" alt="Mac Miller Blog" /></a>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#album">Albums</a></li>
+          <li><a href="#social">Social</a></li>
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <img class="dropdown-img" src="src/img/menu-svgrepo-com.svg" alt="Dropdown Menu" />
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#album">Albums</a>
+          <a href="#social">Social</a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- Home -->
+  <!-- Home -->
 
-    <section class="home">
-      <h2>Who is Mac Miller?</h2>
+  <section class="home">
+    <h2>Who is Mac Miller?</h2>
 
-      <div class="container">
-        <div class="home-info">
-          <img
-            src="./src/img/macmiller-photo.jpg"
-            alt="Mac Miller Photo (Black/White)"
-          />
-          <h3>Rapper, Singer & Producer</h3>
-        </div>
+    <div class="container">
+      <div class="home-info">
+        <img src="./src/img/macmiller-photo.jpg" alt="Mac Miller Photo (Black/White)" />
+        <h3>Rapper, Singer & Producer</h3>
+      </div>
+    </div>
+
+    <a class="home-button" href="#about">Meet Him</a>
+  </section>
+
+  <!-- About -->
+
+  <section id="about" class="about js-scroll">
+    <h2 class="about-title">About</h2>
+
+    <div class="about-item container">
+      <div class="about-img">
+        <img src="src/img/macmiller-kid.jpg" alt="Mac Miller Kid" />
+        <img src="src/img/macmiller-adult.jpg" alt="Mac Miller Adult" />
       </div>
 
-      <a class="home-button" href="#about">Meet Him</a>
-    </section>
-
-    <!-- About -->
-
-    <section id="about" class="about js-scroll">
-      <h2 class="about-title">About</h2>
-
-      <div class="about-item container">
-        <div class="about-img">
-          <img src="src/img/macmiller-kid.jpg" alt="Mac Miller Kid" />
-          <img src="src/img/macmiller-adult.jpg" alt="Mac Miller Adult" />
-        </div>
-
-        <div class="about-info">
-          <h2>Malcolm McCormick</h2>
-          <h3>better known as mac miller.</h3>
-          <p>
-            Malcolm James McCormick (January 19, 1992 - September 7, 2018),
-            known professionally as Mac Miller, was an American rapper, singer,
-            songwriter, and record producer from Pittsburgh, Pennsylvania.
-            Miller began his career in Pittsburgh's hip hop scene in 2007, at
-            the age of fifteen. In 2010, he signed a record deal with
-            independent label Rostrum Records and released his breakthrough
-            mixtapes K.I.D.S and Best Day Ever. Miller's debut studio album,
-            Blue Slide Park, became the first independently distributed debut
-            album to top the US Billboard 200 since 1995.
-          </p>
-
-          <div class="about-img-02">
-            <img src="src/img/macmiller-rapper.jpg" alt="Mac Miller Rapper" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Albums -->
-
-    <section id="album" class="album js-scroll">
-      <h2 class="album-title">Albums</h2>
-
-      <div class="album-item container">
-        <div class="album-img">
-          <a
-            target="_blank"
-            title="Spotify link to Circles Album."
-            href="https://open.spotify.com/album/5sY6UIQ32GqwMLAfSNEaXb?si=o0Fqjg3sTQiqVP3mz7XUig"
-            ><img src="./src/img/circles-art.jpg" alt="Circles"
-          /></a>
-        </div>
-
-        <div class="album-info">
-          <h2>Circles</h2>
-          <h3>2020, Mac Miller</h3>
-          <p>
-            The sequel to Swimming and the last album by Mac Miller. The sixth
-            and final studio release for the rapper was completed with the help
-            of Jon Brion.
-          </p>
-
-          <a
-            target="_blank"
-            title="Metacritic review about Circles Album."
-            href="https://www.metacritic.com/music/circles/mac-miller"
-            ><img
-              src="./src/img/metacritic-logo-white.png"
-              alt="Metacritic Website"
-          /></a>
-        </div>
-      </div>
-
-      <div class="album-item container">
-        <div class="album-img">
-          <a
-            target="_blank"
-            title="Spotify link to Swimming Album."
-            href="https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk?si=4uHRBA8ISa2YWolZZ2s1MA"
-            ><img src="./src/img/swimming-art.jpg" alt="Circles"
-          /></a>
-        </div>
-
-        <div class="album-info">
-          <h2>Swimming</h2>
-          <h3>2018, Mac Miller</h3>
-          <p>
-            The fifth full-length release for the Pittsburgh rapper features
-            guest appearances from Dām-Funk, Dicaprio, Dev Hynes, Snoop Dogg,
-            Syd, and Thundercat.
-          </p>
-
-          <a
-            target="_blank"
-            title="Metacritic review about Swimming Album."
-            href="https://www.metacritic.com/music/swimming/mac-miller"
-            ><img
-              src="./src/img/metacritic-logo-white.png"
-              alt="Metacritic Website"
-          /></a>
-        </div>
-      </div>
-
-      <div class="album-item container">
-        <div class="album-img">
-          <a
-            target="_blank"
-            title="Spotify link to The Divine Feminine Album."
-            href="https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ?si=Ds1DSVIYTqCgwxRMJJjtpw"
-            ><img
-              src="./src/img/the-divine-feminine-art.jpg"
-              alt="The Divine Feminine"
-          /></a>
-        </div>
-
-        <div class="album-info">
-          <h2>The Divine Feminine</h2>
-          <h3>2016, Mac Miller</h3>
-          <p>
-            The fourth full-length release for the Pittsburgh rapper feature
-            gusset appearances from Ariana Grande, Kendrick Lamar, Njomza,
-            Anderson .Paak, and Ty Dolla $ign.
-          </p>
-
-          <a
-            target="_blank"
-            title="Metacritic review about The Divine Feminine Album."
-            href="https://www.metacritic.com/music/the-divine-feminine/mac-miller"
-            ><img
-              src="./src/img/metacritic-logo-white.png"
-              alt="Metacritic Website"
-          /></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Swimming in Circles History -->
-
-    <section class="history js-scroll">
-      <h2 class="history-title">Swimming in Circles: Duology</h2>
-
-      <div class="history-content container">
-        <blockquote class="twitter-tweet">
-          <p lang="pt" dir="ltr">
-            Swimming in Circles — A necessidade de expor seus sentimentos e a
-            procura por uma melhora de si.<br /><br />Como Mac Miller conseguiu
-            expressar seu mundo, seus vícios, desilusões e decepções.
-            <a target="_blank" href="https://t.co/BaxDPO1Rr7"
-              >pic.twitter.com/BaxDPO1Rr7</a
-            >
-          </p>
-          &mdash; victor. (@rovicz_)
-          <a
-            href="https://twitter.com/rovicz_/status/1668380071642447872?ref_src=twsrc%5Etfw"
-            >June 12, 2023</a
-          >
-        </blockquote>
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
-        ></script>
-      </div>
-    </section>
-
-    <!-- Social -->
-
-    <section id="social" class="social js-scroll">
-      <h2 class="social-title">Socials</h2>
-
-      <div class="social-item container">
-        <h2>You can visit Mac Miller<br />content here:</h2>
-
-        <div class="social-img">
-          <a target="_blank" href="https://twitter.com/MacMiller"
-            ><img src="src/img/twitter-logo.png" alt="Twitter - Mac Miller"
-          /></a>
-          <a
-            target="_blank"
-            href="https://open.spotify.com/intl-pt/artist/4LLpKhyESsyAXpc4laK94U"
-            ><img src="src/img/spotify-logo.png" alt="Spotify - Mac Miller"
-          /></a>
-          <a target="_blank" href="https://www.instagram.com/macmiller/"
-            ><img src="src/img/instagram-logo.png" alt="Instagram - Mac Miller"
-          /></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-      <div class="container">
+      <div class="about-info">
+        <h2>Malcolm McCormick</h2>
+        <h3>better known as mac miller.</h3>
         <p>
-          Site produced only for studies.<br />Any and all rights to images,
-          information and links belong to Mac Miller.
+          Malcolm James McCormick (January 19, 1992 - September 7, 2018),
+          known professionally as Mac Miller, was an American rapper, singer,
+          songwriter, and record producer from Pittsburgh, Pennsylvania.
+          Miller began his career in Pittsburgh's hip hop scene in 2007, at
+          the age of fifteen. In 2010, he signed a record deal with
+          independent label Rostrum Records and released his breakthrough
+          mixtapes K.I.D.S and Best Day Ever. Miller's debut studio album,
+          Blue Slide Park, became the first independently distributed debut
+          album to top the US Billboard 200 since 1995.
         </p>
 
-        <div class="footer-img">
-          <img src="src/img/macmiller-logo.svg" alt="Brafé" />
+        <div class="about-img-02">
+          <img src="src/img/macmiller-rapper.jpg" alt="Mac Miller Rapper" />
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script type="module" src="./src/js/script.js"></script>
-    <script type="module">
-      import { dropDown } from "./src/js/modules/dropDownMenu.js";
-    </script>
-  </body>
+  <!-- Albums -->
+
+  <section id="album" class="album js-scroll">
+    <h2 class="album-title">Albums</h2>
+
+    <div class="album-item container">
+      <div class="album-img">
+        <a target="_blank" title="Spotify link to Circles Album." href="https://open.spotify.com/album/5sY6UIQ32GqwMLAfSNEaXb?si=o0Fqjg3sTQiqVP3mz7XUig"><img src="./src/img/circles-art.jpg" alt="Circles" /></a>
+      </div>
+
+      <div class="album-info">
+        <h2>Circles</h2>
+        <h3>2020, Mac Miller</h3>
+        <p>
+          The sequel to Swimming and the last album by Mac Miller. The sixth
+          and final studio release for the rapper was completed with the help
+          of Jon Brion.
+        </p>
+
+        <a target="_blank" title="Metacritic review about Circles Album." href="https://www.metacritic.com/music/circles/mac-miller"><img src="./src/img/metacritic-logo-white.png" alt="Metacritic Website" /></a>
+      </div>
+    </div>
+
+    <div class="album-item container">
+      <div class="album-img">
+        <a target="_blank" title="Spotify link to Swimming Album." href="https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk?si=4uHRBA8ISa2YWolZZ2s1MA"><img src="./src/img/swimming-art.jpg" alt="Circles" /></a>
+      </div>
+
+      <div class="album-info">
+        <h2>Swimming</h2>
+        <h3>2018, Mac Miller</h3>
+        <p>
+          The fifth full-length release for the Pittsburgh rapper features
+          guest appearances from Dām-Funk, Dicaprio, Dev Hynes, Snoop Dogg,
+          Syd, and Thundercat.
+        </p>
+
+        <a target="_blank" title="Metacritic review about Swimming Album." href="https://www.metacritic.com/music/swimming/mac-miller"><img src="./src/img/metacritic-logo-white.png" alt="Metacritic Website" /></a>
+      </div>
+    </div>
+
+    <div class="album-item container">
+      <div class="album-img">
+        <a target="_blank" title="Spotify link to The Divine Feminine Album." href="https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ?si=Ds1DSVIYTqCgwxRMJJjtpw"><img src="./src/img/the-divine-feminine-art.jpg" alt="The Divine Feminine" /></a>
+      </div>
+
+      <div class="album-info">
+        <h2>The Divine Feminine</h2>
+        <h3>2016, Mac Miller</h3>
+        <p>
+          The fourth full-length release for the Pittsburgh rapper feature
+          gusset appearances from Ariana Grande, Kendrick Lamar, Njomza,
+          Anderson .Paak, and Ty Dolla $ign.
+        </p>
+
+        <a target="_blank" title="Metacritic review about The Divine Feminine Album." href="https://www.metacritic.com/music/the-divine-feminine/mac-miller"><img src="./src/img/metacritic-logo-white.png" alt="Metacritic Website" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Swimming in Circles History -->
+
+  <section class="history js-scroll">
+    <h2 class="history-title">Swimming in Circles: Duology</h2>
+
+    <div class="history-content container">
+      <blockquote class="twitter-tweet">
+        <p lang="pt" dir="ltr">
+          Swimming in Circles — A necessidade de expor seus sentimentos e a
+          procura por uma melhora de si.<br /><br />Como Mac Miller conseguiu
+          expressar seu mundo, seus vícios, desilusões e decepções.
+          <a target="_blank" href="https://t.co/BaxDPO1Rr7">pic.twitter.com/BaxDPO1Rr7</a>
+        </p>
+        &mdash; victor. (@rovicz_)
+        <a href="https://twitter.com/rovicz_/status/1668380071642447872?ref_src=twsrc%5Etfw">June 12, 2023</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </section>
+
+  <!-- Social -->
+
+  <section id="social" class="social js-scroll">
+    <h2 class="social-title">Socials</h2>
+
+    <div class="social-item container">
+      <h2>You can visit Mac Miller<br />content here:</h2>
+
+      <div class="social-img">
+        <a target="_blank" href="https://twitter.com/MacMiller"><img src="src/img/twitter-logo.png" alt="Twitter - Mac Miller" /></a>
+        <a target="_blank" href="https://open.spotify.com/intl-pt/artist/4LLpKhyESsyAXpc4laK94U"><img src="src/img/spotify-logo.png" alt="Spotify - Mac Miller" /></a>
+        <a target="_blank" href="https://www.instagram.com/macmiller/"><img src="src/img/instagram-logo.png" alt="Instagram - Mac Miller" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Site produced only for studies.<br />Any and all rights to images,
+        information and links belong to Mac Miller.
+      </p>
+
+      <div class="footer-img">
+        <img src="src/img/macmiller-logo.svg" alt="Brafé" />
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./src/js/script.js"></script>
+
+</body>
+
 </html>

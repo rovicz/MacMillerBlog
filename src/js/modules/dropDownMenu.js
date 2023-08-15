@@ -1,16 +1,12 @@
-export default function dropDown() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+export default function initDropMenu() {
+  const dropdownContent = document.getElementById("myDropdown");
+  const dropdownImg = document.querySelector(".dropdown-img");
 
-window.onclick = function (event) {
-  if (!event.target.matches(".dropbtn")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
+  if (dropdownContent.classList.contains("show")) {
+    dropdownContent.classList.remove("show");
+    dropdownImg.classList.remove("vsgtransform");
+  } else {
+    dropdownContent.classList.add("show");
+    dropdownImg.classList.add("vsgtransform");
   }
-};
+}
