@@ -30,7 +30,21 @@
             <li><a href="#social">Social</a></li>
           </ul>
         </nav>
-        <button onclick="dropDown()" class="dropbtn">Menu</button>
+        <div class="dropdown">
+          <button onclick="dropDown()" class="dropbtn">
+            <img
+              class="dropdown-img"
+              src="src/img/menu-svgrepo-com.svg"
+              alt="Dropdown Menu"
+            />
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#album">Albums</a>
+            <a href="#social">Social</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -252,5 +266,8 @@
     </footer>
 
     <script type="module" src="./src/js/script.js"></script>
+    <script type="module">
+      import { dropDown } from "./src/js/modules/dropDownMenu.js";
+    </script>
   </body>
 </html>
