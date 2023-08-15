@@ -11,7 +11,10 @@ export default function initDropMenu() {
   }
 
   window.onclick = function (event) {
-    if (!event.target.matches(".dropbtn")) {
+    if (
+      !event.target.matches(".dropbtn") &&
+      !event.target.matches(".dropbtn img")
+    ) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
       var i;
       for (i = 0; i < dropdowns.length; i++) {

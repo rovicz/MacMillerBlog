@@ -550,7 +550,6 @@ img {
   height: 60px;
   border: 2px solid #0029f7;
   border-radius: 10px;
-  cursor: pointer;
   margin-right: 60px;
 }
 
@@ -566,7 +565,7 @@ img {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  margin-top: -10px;
+  margin-top: -15px;
   animation: growDown 300ms ease-in-out forwards;
   transform-origin: top center;
   border-radius: 10px;
