@@ -569,14 +569,25 @@ img {
   margin-top: -10px;
   animation: growDown 300ms ease-in-out forwards;
   transform-origin: top center;
+  border-radius: 10px;
 }
 .dropdown-content a {
-  color: black;
+  color: #0029f0;
   padding: 20px 20px;
   text-decoration: none;
   display: block;
   transition: 0.5s;
   font-size: 1.25em;
+  border-radius: 10px;
+}
+
+.dropdown-content a::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #0029f0;
+  border-radius: 10px;
 }
 
 .show {
