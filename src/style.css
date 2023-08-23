@@ -315,7 +315,7 @@ img {
   }
 
   .about {
-    margin: 140px 0;
+    margin: 100px 0;
   }
 }
 
@@ -351,7 +351,7 @@ img {
   background-color: #0029f7;
   border-radius: 15px;
   padding: 60px;
-  margin: 60px auto;
+  margin: 60px auto 100px auto;
 }
 
 .album-img img {
@@ -486,7 +486,7 @@ img {
 
 @media (max-width: 739px) {
   .social {
-    margin: 140px 0;
+    margin: 100px 0;
   }
 }
 
