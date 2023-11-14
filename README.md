@@ -1,5 +1,5 @@
 # MacMillerBlog
-a simple blog about Mac Miller using HTML and CSS (and JS - loading soon).
+a simple blog about Mac Miller using HTML and CSS.
 
 U can teste here:
 
